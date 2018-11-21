@@ -195,7 +195,14 @@ const Index = () => (
               Recreation of a Tomb Raider Wallpaper (Fan Art)
             </ProjectCard>
             <ProjectCard
-              title="Eagle"
+              title="xgboost"
+              link="https://nbviewer.jupyter.org/github/diaper151/python_for_data_science/blob/master/6.2%20Store%20Data%20Into%20Database.ipynb"
+              bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+            >
+              python_for_data_science
+            </ProjectCard>
+            <ProjectCard
+              title="lightgbm"
               link="https://nbviewer.jupyter.org/github/diaper151/python_for_data_science/blob/master/6.2%20Store%20Data%20Into%20Database.ipynb"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
