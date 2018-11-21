@@ -177,21 +177,21 @@ const Index = () => (
             <ProjectCard
               title="Blending for dataset"
               link="https://nbviewer.jupyter.org/github/diaper151/python_for_data_science/blob/master/6.2%20Store%20Data%20Into%20Database.ipynb"
-              bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+              bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
               Data science for Python
             </ProjectCard>
             <ProjectCard
               title="Bayesian Optimization"
               link="https://nbviewer.jupyter.org/github/diaper151/python_for_data_science/blob/master/6.2%20Store%20Data%20Into%20Database.ipynb"
-              bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+              bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
               Bayesian Optimization for Hyperparameter Tuning
             </ProjectCard>
             <ProjectCard
               title="Convex Optimization"
               link="https://nbviewer.jupyter.org/github/diaper151/python_for_data_science/blob/master/6.2%20Store%20Data%20Into%20Database.ipynb"
-              bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+              bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
               convex optimization
             </ProjectCard>
@@ -205,7 +205,7 @@ const Index = () => (
             <ProjectCard
               title="Tensorflow eager execution"
               link="https://nbviewer.jupyter.org/github/diaper151/python_for_data_science/blob/master/6.2%20Store%20Data%20Into%20Database.ipynb"
-              bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+              bg="linear-gradient(to right, #FF69B4 0%, #FFD700 100%)"
             >
               Let's make Tensorflow like Pytorch
             </ProjectCard>
