@@ -155,7 +155,7 @@ const Index = () => (
         <SVG icon="hexa" width={16} stroke={colors['grey-darker']} left="10%" top="50%" />
         <SVG icon="hexa" width={8} stroke={colors['grey-darker']} left="80%" top="70%" />
       </Divider>
-      <Content speed={0.4} offset={0}>彰師資管專題報告
+      <Content speed={0.4} offset={0}>
         <Hero>
           <BigTitle>
             歡迎～ <br /> 來到專題報告網站
