@@ -196,10 +196,10 @@ const Index = () => (
             </ProjectCard>
             <ProjectCard
               title="Eagle"
-              link="https://www.behance.net/gallery/38068151/Eagle"
+              link="https://nbviewer.jupyter.org/github/diaper151/python_for_data_science/blob/master/6.2%20Store%20Data%20Into%20Database.ipynb"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
-              A fantasy image manipulation relocating the habitat of wild animals.
+              python_for_data_science
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
