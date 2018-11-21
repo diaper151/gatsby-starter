@@ -171,7 +171,7 @@ const Index = () => (
         factor={2}
       />
       <Content speed={0.4} offset={1.2} factor={2}>
-        <Inner>
+        <Inner>彰師資管專題報告
           <Title>專案主題</Title>
           <ProjectsWrapper>
             <ProjectCard
