@@ -158,9 +158,10 @@ const Index = () => (
       <Content speed={0.4} offset={0}>
         <Hero>
           <BigTitle>
-            Hello, <br /> I'm John Doe.
+            歡迎～ <br /> 來到專題報告網站
           </BigTitle>
-          <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+          <Subtitle>成員 : 戴屏川 & 李欣盈 & 魏杰瞳</Subtitle>
+          <Subtitle>主題 : Traveling Santa 2018 - Prime Paths </Subtitle>
         </Hero>
       </Content>
       <DividerMiddle
@@ -171,42 +172,42 @@ const Index = () => (
       />
       <Content speed={0.4} offset={1.2} factor={2}>
         <Inner>
-          <Title>Projects</Title>
+          <Title>專案主題</Title>
           <ProjectsWrapper>
             <ProjectCard
-              title="Freiheit"
-              link="https://www.behance.net/gallery/58937147/Freiheit"
-              bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
-            >
-              This project is my entry to Adobe's #ChallengeYourPerspective contest.
-            </ProjectCard>
-            <ProjectCard
-              title="Harry Potter"
-              link="https://www.behance.net/gallery/52915793/Harry-Potter"
-              bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-            >
-              I entered the DOCMA 2017 award with this Harry Potter inspired image.
-            </ProjectCard>
-            <ProjectCard
-              title="Tomb Raider"
-              link="https://www.behance.net/gallery/43907099/Tomb-Raider"
-              bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
-            >
-              Recreation of a Tomb Raider Wallpaper (Fan Art)
-            </ProjectCard>
-            <ProjectCard
-              title="xgboost"
+              title="Blending for dataset"
               link="https://nbviewer.jupyter.org/github/diaper151/python_for_data_science/blob/master/6.2%20Store%20Data%20Into%20Database.ipynb"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
-              python_for_data_science
+              Data science for Python
             </ProjectCard>
             <ProjectCard
-              title="lightgbm"
+              title="Bayesian Optimization"
               link="https://nbviewer.jupyter.org/github/diaper151/python_for_data_science/blob/master/6.2%20Store%20Data%20Into%20Database.ipynb"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
-              python_for_data_science
+              Bayesian Optimization for Hyperparameter Tuning
+            </ProjectCard>
+            <ProjectCard
+              title="Convex Optimization"
+              link="https://nbviewer.jupyter.org/github/diaper151/python_for_data_science/blob/master/6.2%20Store%20Data%20Into%20Database.ipynb"
+              bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+            >
+              convex optimization
+            </ProjectCard>
+            <ProjectCard
+              title="Math behind XGBoost"
+              link="https://nbviewer.jupyter.org/github/diaper151/python_for_data_science/blob/master/6.2%20Store%20Data%20Into%20Database.ipynb"
+              bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+            >
+              Math Math Math
+            </ProjectCard>
+            <ProjectCard
+              title="Tensorflow eager execution"
+              link="https://nbviewer.jupyter.org/github/diaper151/python_for_data_science/blob/master/6.2%20Store%20Data%20Into%20Database.ipynb"
+              bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+            >
+              Let's make Tensorflow like Pytorch
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
@@ -259,16 +260,12 @@ const Index = () => (
           <AboutHero>
             <Avatar src={avatar} alt="John Doe" />
             <AboutSub>
-              The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-              Emoji into my speech to better express myself. Winky face.
+              人生短短幾個秋 呀不醉不罷休 東邊我的美人 哪西邊黃河流 來呀來個酒啊 來呀來個酒啊 不醉不罷休 愁情煩事別放心頭
             </AboutSub>
           </AboutHero>
           <AboutDesc>
-            You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-            every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-            make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The
-            kids want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that
-            all right?
+            你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ
+            你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ
           </AboutDesc>
         </Inner>
       </Content>
