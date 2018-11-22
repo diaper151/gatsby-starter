@@ -264,8 +264,11 @@ const Index = () => (
             </AboutSub>
           </AboutHero>
           <AboutDesc>
-            你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ
-            你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ你媽的ㄋㄟㄋㄟ
+            Can we use the content of news analytics to predict stock price performance?
+            The ubiquity of data today enables investors at any scale to make better investment decisions.
+            The challenge is ingesting and interpreting the data to determine which data is useful,
+            finding the signal in this sea of information.
+            Two Sigma is passionate about this challenge and is excited to share it with the Kaggle community.
           </AboutDesc>
         </Inner>
       </Content>
@@ -287,16 +290,16 @@ const Index = () => (
       </Divider>
       <Content speed={0.4} offset={4}>
         <Inner>
-          <Title>Get in touch</Title>
+          <Title>相關補充</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            引用資料來源及其他相關整理:{' '}
+            <a href="https://dribbble.com/LekoArts">我們參考的Kernels</a> &{' '}
+            <a href="https://www.instagram.com/lekoarts.de/">Medium參考文章</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2018 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>.
+           2018 by NCUE資管109級專題小組.{' '}
+          <a href="https://github.com/diaper151">Github Repository</a>.
         </Footer>
       </Content>
       <Divider speed={0.1} offset={4}>
