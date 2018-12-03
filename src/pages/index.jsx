@@ -158,10 +158,11 @@ const Index = () => (
       <Content speed={0.4} offset={0}>
         <Hero>
           <BigTitle>
-            歡迎～ <br /> 來到專題報告網站
+            歡迎～ <br /> 彰師資管109專題報告網站
           </BigTitle>
-          <Subtitle>成員 : 戴屏川 & 李欣盈 & 魏杰瞳</Subtitle>
-          <Subtitle>主題 : Traveling Santa 2018 - Prime Paths </Subtitle>
+          <Subtitle>指導教授 : 楊婉秀</Subtitle>          
+          <Subtitle>成員 : 戴屏川 李欣盈 魏杰瞳</Subtitle>
+          <Subtitle>Abstract : <a href="https://dribbble.com/LekoArts">Click HERE</a></Subtitle>
         </Hero>
       </Content>
       <DividerMiddle
@@ -175,14 +176,14 @@ const Index = () => (
           <Title>專案主題</Title>
           <ProjectsWrapper>
             <ProjectCard
-              title="Blending for dataset"
+              title="Blending for dataset ‎∡ºΔ"
               link="https://nbviewer.jupyter.org/github/diaper151/python_for_data_science/blob/master/6.2%20Store%20Data%20Into%20Database.ipynb"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
               Data science for Python
             </ProjectCard>
             <ProjectCard
-              title="Bayesian Optimization"
+              title="Bayesian Optimization ∫d/dx"
               link="https://nbviewer.jupyter.org/github/diaper151/python_for_data_science/blob/master/6.2%20Store%20Data%20Into%20Database.ipynb"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
@@ -260,15 +261,14 @@ const Index = () => (
           <AboutHero>
             <Avatar src={avatar} alt="John Doe" />
             <AboutSub>
-              人生短短幾個秋 呀不醉不罷休 東邊我的美人 哪西邊黃河流 來呀來個酒啊 來呀來個酒啊 不醉不罷休 愁情煩事別放心頭
+              彰師資管109專題報告網站
             </AboutSub>
           </AboutHero>
           <AboutDesc>
-            Can we use the content of news analytics to predict stock price performance?
-            The ubiquity of data today enables investors at any scale to make better investment decisions.
-            The challenge is ingesting and interpreting the data to determine which data is useful,
-            finding the signal in this sea of information.
-            Two Sigma is passionate about this challenge and is excited to share it with the Kaggle community.
+            大青蛙呱呱呱大青蛙呱呱呱
+            大青蛙呱呱呱大青蛙呱呱呱
+            大青蛙呱呱呱大青蛙呱呱呱
+            大青蛙呱呱呱大青蛙呱呱呱
           </AboutDesc>
         </Inner>
       </Content>
@@ -290,15 +290,15 @@ const Index = () => (
       </Divider>
       <Content speed={0.4} offset={4}>
         <Inner>
-          <Title>相關補充</Title>
+          <Title>引用與參考資料</Title>
           <ContactText>
-            引用資料來源及其他相關整理:{' '}
+            Kernels from Kaggle:{' '}
             <a href="https://dribbble.com/LekoArts">我們參考的Kernels</a> &{' '}
             <a href="https://www.instagram.com/lekoarts.de/">Medium參考文章</a>
           </ContactText>
         </Inner>
         <Footer>
-           2018 by NCUE資管109級專題小組.{' '}
+           2018 NCUE資管109級專題小組{' '}
           <a href="https://github.com/diaper151">Github Repository</a>.
         </Footer>
       </Content>
