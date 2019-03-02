@@ -158,11 +158,11 @@ const Index = () => (
       <Content speed={0.4} offset={0}>
         <Hero>
           <BigTitle>
-            歡迎～ <br /> 彰師資管109專題報告網站
+            歡迎～(未完工) <br /> 彰師資管109專題報告網站
           </BigTitle>
           <Subtitle>指導教授 : 楊婉秀</Subtitle>          
           <Subtitle>成員 : 戴屏川 李欣盈 魏杰瞳</Subtitle>
-          <Subtitle>Abstract : <a href="https://dribbble.com/LekoArts" style={{color:`#ff9933`}}>Click HERE</a></Subtitle>
+          <Subtitle>Abstract : <a href="http://ncue.xyz" style={{color:`#ff9933`}}>Click HERE</a></Subtitle>
         </Hero>
       </Content>
       <DividerMiddle
@@ -177,35 +177,35 @@ const Index = () => (
           <ProjectsWrapper>
             <ProjectCard
               title="Blending for dataset ‎∡ºΔ"
-              link="https://nbviewer.jupyter.org/github/diaper151/python_for_data_science/blob/master/6.2%20Store%20Data%20Into%20Database.ipynb"
+              link="http://ncue.xyz"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
               Data science for Python
             </ProjectCard>
             <ProjectCard
               title="Bayesian Optimization ∫d/dx"
-              link="https://nbviewer.jupyter.org/github/diaper151/python_for_data_science/blob/master/6.2%20Store%20Data%20Into%20Database.ipynb"
+              link="http://ncue.xyz"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
               Bayesian Optimization for Hyperparameter Tuning
             </ProjectCard>
             <ProjectCard
-              title="Convex Optimization"
-              link="https://nbviewer.jupyter.org/github/diaper151/python_for_data_science/blob/master/6.2%20Store%20Data%20Into%20Database.ipynb"
+              title="Feature Engineering"
+              link="http://ncue.xyz"
               bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
-              convex optimization
+              Preprocessing
             </ProjectCard>
             <ProjectCard
               title="Math behind XGBoost"
-              link="https://nbviewer.jupyter.org/github/diaper151/python_for_data_science/blob/master/6.2%20Store%20Data%20Into%20Database.ipynb"
+              link="http://ncue.xyz"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
-              Math Math Math
+              Tree Based
             </ProjectCard>
             <ProjectCard
               title="Tensorflow eager execution"
-              link="https://nbviewer.jupyter.org/github/diaper151/python_for_data_science/blob/master/6.2%20Store%20Data%20Into%20Database.ipynb"
+              link="http://ncue.xyz"
               bg="linear-gradient(to right, #FF69B4 0%, #FFD700 100%)"
             >
               Let's make Tensorflow like Pytorch
@@ -265,17 +265,17 @@ const Index = () => (
             </AboutSub>
           </AboutHero>
           <AboutDesc>
-            大青蛙呱呱呱大青蛙呱呱呱
-            大青蛙呱呱呱大青蛙呱呱呱
-            大青蛙呱呱呱大青蛙呱呱呱
-            大青蛙呱呱呱大青蛙呱呱呱
+            尚未完工
+            尚未完工
+            尚未完工
+            尚未完工
           </AboutDesc>
         </Inner>
       </Content>
       <Divider fill="#23262b" speed={0.2} offset={4}>
         <WaveWrapper>
           <InnerWave>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 338.05" preserveAspectRatio="none">
+            <svg xmlns="http://ncue.xyz" viewBox="0 0 800 338.05" preserveAspectRatio="none">
               <path className={waveAnimation}>
                 <animate
                   attributeName="d"
@@ -293,8 +293,8 @@ const Index = () => (
           <Title>引用與參考資料</Title>
           <ContactText>
             Kernels from Kaggle:{' '}
-            <a href="https://dribbble.com/LekoArts">我們參考的Kernels</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Medium參考文章</a>
+            <a href="http://ncue.xyz">我們參考的Kernels</a> &{' '}
+            <a href="http://ncue.xyz">Medium參考文章</a>
           </ContactText>
         </Inner>
         <Footer>

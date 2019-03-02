@@ -8,7 +8,7 @@ module.exports = {
   siteUrl: 'https://portfolio-cara.netlify.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logos/logo-1000.jpg', // Used for SEO and manifest
-  siteDescription: 'Machine learning Project Presentation',
+  siteDescription: 'Project Presentation',
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
   userTwitter: '@diaper151', // Twitter Username
