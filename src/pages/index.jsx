@@ -162,7 +162,7 @@ const Index = () => (
           </BigTitle>
           <Subtitle>指導教授 : 楊婉秀</Subtitle>          
           <Subtitle>成員 : 戴屏川 李欣盈 魏杰瞳</Subtitle>
-          <Subtitle>Abstract : <a href="http://ncue.xyz" style={{color:`#ff9933`}}>Click HERE</a></Subtitle>
+          <Subtitle>Abstract : <a href="https://github.com/diaper151/gatsby-starter/blob/master/notebook/Abstract.ipynb" style={{color:`#ff9933`}}>Click HERE</a></Subtitle>
         </Hero>
       </Content>
       <DividerMiddle
