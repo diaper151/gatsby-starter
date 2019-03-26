@@ -176,39 +176,39 @@ const Index = () => (
           <Title>專案主題</Title>
           <ProjectsWrapper>
             <ProjectCard
-              title="Blending for dataset ‎∡ºΔ"
+              title="Linear Regression"
               link="http://ncue.xyz"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
-              Data science for Python
+              Linear Regression on GPU
             </ProjectCard>
             <ProjectCard
-              title="Bayesian Optimization ∫d/dx"
+              title="Ridge Regression"
               link="http://ncue.xyz"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
-              Bayesian Optimization for Hyperparameter Tuning
+              Ridge Regression on GPU
             </ProjectCard>
             <ProjectCard
-              title="Feature Engineering"
+              title="K Nearest Neighbor"
               link="http://ncue.xyz"
               bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
-              Preprocessing
+              KNN on GPU
             </ProjectCard>
             <ProjectCard
-              title="Math behind XGBoost"
+              title="Principal components analysis"
               link="http://ncue.xyz"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
-              Tree Based
+              PCA on GPU
             </ProjectCard>
             <ProjectCard
-              title="Tensorflow eager execution"
+              title="Least absolute shrinkage and selection operator"
               link="http://ncue.xyz"
               bg="linear-gradient(to right, #FF69B4 0%, #FFD700 100%)"
             >
-              Let's make Tensorflow like Pytorch
+              Lasso on GPU
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
