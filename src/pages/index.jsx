@@ -177,7 +177,7 @@ const Index = () => (
           <ProjectsWrapper>
             <ProjectCard
               title="Linear Regression"
-              link="http://ncue.xyz"
+              link="https://github.com/diaper151/gatsby-starter/blob/master/notebook/linear_regression_demo.ipynb"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
               Linear Regression on GPU
@@ -205,7 +205,7 @@ const Index = () => (
             </ProjectCard>
             <ProjectCard
               title="Least absolute shrinkage and selection operator"
-              link="http://ncue.xyz"
+              link="https://github.com/diaper151/gatsby-starter/blob/master/notebook/lasso_demo.ipynb"
               bg="linear-gradient(to right, #FF69B4 0%, #FFD700 100%)"
             >
               Lasso on GPU
