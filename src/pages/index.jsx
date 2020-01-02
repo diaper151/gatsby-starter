@@ -269,14 +269,43 @@ const Index = () => (
           </AboutDesc>
         </Inner>
       </Content>
-
+      <Divider fill="#23262b" speed={0.2} offset={4}>
+        <WaveWrapper>
+          <InnerWave>
+            <svg xmlns="http://ncue.xyz" viewBox="0 0 800 338.05" preserveAspectRatio="none">
+              <path className={waveAnimation}>
+                <animate
+                  attributeName="d"
+                  values="M 0 100 Q 250 50 400 200 Q 550 350 800 300 L 800 0 L 0 0 L 0 100 Z;M 0 100 Q 200 150 400 200 Q 600 250 800 300 L 800 0 L 0 0 L 0 100 Z;M 0 100 Q 150 350 400 200 Q 650 50 800 300 L 800 0 L 0 0 L 0 100 Z"
+                  repeatCount="indefinite"
+                  dur="30s"
+                />
+              </path>
+            </svg>
+          </InnerWave>
+        </WaveWrapper>
+      </Divider>
       <Content speed={0.4} offset={4}>
         <Footer>
            2018 NCUE資管109級專題小組{' '}
           <a href="https://github.com/diaper151">Github Repository</a>.
         </Footer>
       </Content>
-
+      <Divider speed={0.1} offset={4}>
+        <UpDown>
+          <SVG icon="upDown" className={hidden} width={8} fill={colors['grey-darkest']} left="70%" top="20%" />
+          <SVG icon="triangle" width={8} stroke={colors['grey-darkest']} left="25%" top="5%" />
+        </UpDown>
+        <UpDownWide>
+          <SVG icon="triangle" width={12} stroke={colors.white} left="95%" top="50%" />
+          <SVG icon="circle" width={6} fill={colors.white} left="85%" top="15%" />
+          <SVG icon="upDown" className={hidden} width={8} fill={colors['grey-darkest']} left="45%" top="10%" />
+        </UpDownWide>
+        <SVG icon="circle" width={6} fill={colors.white} left="4%" top="20%" />
+        <SVG icon="circle" width={12} fill={colors['grey-darkest']} left="70%" top="60%" />
+        <SVG icon="box" width={12} fill={colors['grey-darkest']} left="20%" top="30%" />
+        <SVG icon="hexa" width={8} stroke={colors['grey-darkest']} left="80%" top="70%" />
+      </Divider>
     </Parallax>
   </React.Fragment>
 );
