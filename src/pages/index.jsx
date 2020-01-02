@@ -158,7 +158,7 @@ const Index = () => (
       <Content speed={0.4} offset={0}>
         <Hero>
           <BigTitle>
-            歡迎～(未完工) <br /> 彰師資管109專題報告網站
+            歡迎～ <br /> 彰師資管109專題報告網站
           </BigTitle>
           <Subtitle>指導教授 : 楊婉秀</Subtitle>          
           <Subtitle>成員 : 戴屏川 李欣盈 魏杰瞳</Subtitle>
@@ -184,21 +184,21 @@ const Index = () => (
             </ProjectCard>
             <ProjectCard
               title="Ridge Regression"
-              link="http://ncue.xyz"
+              link="https://github.com/diaper151/gatsby-starter/blob/master/notebook/ridge_regression_demo.ipynb"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
               Ridge Regression on GPU
             </ProjectCard>
             <ProjectCard
               title="K Nearest Neighbor"
-              link="http://ncue.xyz"
+              link="https://github.com/diaper151/gatsby-starter/blob/master/notebook/kneighbors_classifier_demo.ipynb"
               bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
               KNN on GPU
             </ProjectCard>
             <ProjectCard
               title="Principal components analysis"
-              link="http://ncue.xyz"
+              link="https://github.com/diaper151/gatsby-starter/blob/master/notebook/pca_demo.ipynb"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
               PCA on GPU
@@ -265,10 +265,7 @@ const Index = () => (
             </AboutSub>
           </AboutHero>
           <AboutDesc>
-            尚未完工
-            尚未完工
-            尚未完工
-            尚未完工
+
           </AboutDesc>
         </Inner>
       </Content>
@@ -289,14 +286,6 @@ const Index = () => (
         </WaveWrapper>
       </Divider>
       <Content speed={0.4} offset={4}>
-        <Inner>
-          <Title>引用與參考資料</Title>
-          <ContactText>
-            Kernels from Kaggle:{' '}
-            <a href="http://ncue.xyz">我們參考的Kernels</a> &{' '}
-            <a href="http://ncue.xyz">Medium參考文章</a>
-          </ContactText>
-        </Inner>
         <Footer>
            2018 NCUE資管109級專題小組{' '}
           <a href="https://github.com/diaper151">Github Repository</a>.
