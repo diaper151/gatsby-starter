@@ -30,9 +30,3 @@ bash ncue.sh
 source activate ncue
 jupyter lab
 ```
-
-## 執行驗證Test
-
-### Linear Regression
-
-### Ridge Regression
